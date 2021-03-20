@@ -69,4 +69,23 @@
 .btn-1 :hover {
   background-color: #E46C04;
 }
+
+.bloc-avantage {
+  background-color: #2AB3DC;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  margin: 10px;
+}
+
+.avantage_div_icon {
+  width: 100%;
+  text-align: center;
+}
+
+.avantage_icons {
+  fill: white;
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=style.css.map */

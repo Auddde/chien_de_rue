@@ -56,3 +56,20 @@ $secondary_rollover: #E46C04;
         background-color: $secondary_rollover;
     }
 }
+
+.bloc-avantage{
+    background-color: $primary;
+    border-radius: 20px;
+    padding:20px;
+    width:100%;
+    margin:10px;
+}
+.avantage_div_icon{
+    width:100%; 
+    text-align: center;
+}
+.avantage_icons{
+    fill:white;
+    width:30px;
+    height: 30px;
+}
