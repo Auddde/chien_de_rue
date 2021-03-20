@@ -1,0 +1,72 @@
+/* Variables */
+.background_primary {
+  background-color: #2AB3DC;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.social_icons {
+  width: 30px;
+  height: 30px;
+  fill: #2AB3DC;
+}
+
+.social_icons :hover {
+  fill: #00829E;
+}
+
+/* Carroussel */
+.text_carrousel {
+  position: absolute;
+  z-index: 999;
+  color: white;
+  bottom: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1140px) {
+  .text_carrousel {
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .text_carrousel {
+    bottom: 10px;
+  }
+}
+
+.h1-carroussel {
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 730px) {
+  .h1-carroussel {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .h1-carroussel {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .h1-carroussel {
+    font-size: 1.3rem;
+  }
+}
+
+/* Boutons */
+.btn-1 {
+  background-color: #EB8126;
+  color: white;
+}
+
+.btn-1 :hover {
+  background-color: #E46C04;
+}
+/*# sourceMappingURL=style.css.map */
