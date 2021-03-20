@@ -1,0 +1,19 @@
+
+$primary: #2AB3DC;
+$primary_rollover: #00829E;
+
+.background_primary {
+    background-color: $primary;
+}
+.social_icons{
+    width:30px;
+    height:30px;
+    fill:$primary;
+    :hover {
+        fill:$primary_rollover;
+    }
+}
+
+.logo{
+    max-width: 200px;
+}
