@@ -3,18 +3,30 @@
   background-color: #2AB3DC;
 }
 
+.background_lightblue {
+  background-color: #E9F5F8;
+}
+
 .logo {
   max-width: 200px;
 }
 
-.social_icons {
+/*Gestion des icones */
+.social_icons, .avantage_icons {
   width: 30px;
   height: 30px;
+}
+
+.social_icons {
   fill: #2AB3DC;
 }
 
 .social_icons :hover {
   fill: #00829E;
+}
+
+.avantage_icons {
+  fill: white;
 }
 
 /* Carroussel */
@@ -83,9 +95,10 @@
   text-align: center;
 }
 
-.avantage_icons {
-  fill: white;
-  width: 30px;
-  height: 30px;
+@media screen and (max-width: 960px) {
+  .iframe_presentation {
+    height: 400px;
+    padding: 30px 0px 0px 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

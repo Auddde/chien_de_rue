@@ -3,22 +3,34 @@ $primary: #2AB3DC;
 $primary_rollover: #00829E;
 $secondary:#EB8126;
 $secondary_rollover: #E46C04;
+$lightblue:#E9F5F8;
 
 .background_primary {
     background-color: $primary;
+}
+.background_lightblue {
+    background-color: $lightblue;
 }
 
 .logo{
     max-width: 200px;
 }
 
-.social_icons{
+/*Gestion des icones */
+%icon_size {
     width:30px;
     height:30px;
+}
+.social_icons{
+    @extend %icon_size;
     fill:$primary;
     :hover {
         fill:$primary_rollover;
     }
+}
+.avantage_icons{
+    fill:white;
+    @extend %icon_size;
 }
 
 /* Carroussel */
@@ -68,8 +80,10 @@ $secondary_rollover: #E46C04;
     width:100%; 
     text-align: center;
 }
-.avantage_icons{
-    fill:white;
-    width:30px;
-    height: 30px;
+
+.iframe_presentation{
+    @media screen and (max-width : 960px){
+    height: 400px; 
+    padding: 30px 0px 0px 0px;
+    }
 }
