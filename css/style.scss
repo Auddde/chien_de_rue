@@ -5,6 +5,7 @@ $secondary:#EB8126;
 $secondary_rollover: #E46C04;
 $lightblue:#E9F5F8;
 
+/* Styles atomiques */
 .background_primary {
     background-color: $primary;
 }
@@ -16,11 +17,23 @@ $lightblue:#E9F5F8;
     max-width: 200px;
 }
 
+/* Styles généraux */
+/** Boutons */
+.btn-1{
+    background-color: $secondary;
+    color:white;
+    :hover {
+        background-color: $secondary_rollover;
+    }
+}
+
+
 /*Gestion des icones */
 %icon_size {
     width:30px;
     height:30px;
 }
+
 .social_icons{
     @extend %icon_size;
     fill:$primary;
@@ -60,14 +73,6 @@ $lightblue:#E9F5F8;
         font-size:1.3rem;
     }  
 }
-/* Boutons */
-.btn-1{
-    background-color: $secondary;
-    color:white;
-    :hover {
-        background-color: $secondary_rollover;
-    }
-}
 
 .bloc-avantage{
     background-color: $primary;
@@ -85,5 +90,13 @@ $lightblue:#E9F5F8;
     @media screen and (max-width : 960px){
     height: 400px; 
     padding: 30px 0px 0px 0px;
+    }
+}
+
+/* Footer */
+.hr_footer{
+    margin-top:40px;
+    @media screen and (min-width : 720px){
+    display:none;
     }
 }

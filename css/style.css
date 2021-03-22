@@ -1,4 +1,6 @@
+@charset "UTF-8";
 /* Variables */
+/* Styles atomiques */
 .background_primary {
   background-color: #2AB3DC;
 }
@@ -9,6 +11,17 @@
 
 .logo {
   max-width: 200px;
+}
+
+/* Styles généraux */
+/** Boutons */
+.btn-1 {
+  background-color: #EB8126;
+  color: white;
+}
+
+.btn-1 :hover {
+  background-color: #E46C04;
 }
 
 /*Gestion des icones */
@@ -72,16 +85,6 @@
   }
 }
 
-/* Boutons */
-.btn-1 {
-  background-color: #EB8126;
-  color: white;
-}
-
-.btn-1 :hover {
-  background-color: #E46C04;
-}
-
 .bloc-avantage {
   background-color: #2AB3DC;
   border-radius: 20px;
@@ -99,6 +102,17 @@
   .iframe_presentation {
     height: 400px;
     padding: 30px 0px 0px 0px;
+  }
+}
+
+/* Footer */
+.hr_footer {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 720px) {
+  .hr_footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
