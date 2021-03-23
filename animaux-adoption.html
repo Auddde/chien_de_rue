@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaux à adopter l Chiens de rue</title>
+	<meta name="description" content="Découvrez tous nos chiens roumains attendant avec impatiente une adoption dans un foyer aimant et bienveillant...">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap-5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Our CSS-->
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+
+	<!-- Header -->
+    <header class="container-fluid">
+        <div class="row justify-content-between align-items-center mt-3 mb-3">
+          <div class="col-2">
+            <a href="index.html">
+              <img src="images/logo.svg" class="logo" alt="Assosication Chiens de rue">
+            </a>
+          </div>
+          <div class="col-2 d-flex justify-content-end">
+            <a href="#">
+              <svg class="social_icons"><use xlink:href="/images/icons.svg#facebook"></use></svg>
+            </a>    
+            <a href="#">       
+              <svg class="social_icons"><use xlink:href="/images/icons.svg#twitter"></use></svg>
+            </a>
+          </div>
+        </div>
+      </header>
+    
+      <!-- Menu -->
+      <nav class="navbar navbar-expand-lg navbar-dark background_primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Chiens de rue</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="association.html">L'association</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="animaux-adoption.html">Animaux à adopter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="conseils.html">Conseils de chiens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="actus.html">Actus et events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nous-aider.html">Nous aider</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+	  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="lightgray ps-3 pt-3">
+		<ol class="breadcrumb">
+		  <li class="breadcrumb-item"><a href="index.html" class="lien-basic">Accueil</a></li>
+		  <li class="breadcrumb-item active" aria-current="page">Animaux à adopter</li>
+		</ol>
+	  </nav>
+    
+      <!-- Nos chiens-->
+      <main class="container-fluid background_lightblue">
+        <div class="container">
+            <div class="row pt-4 pb-3 justify-content-between">
+                <div class="col-md-6 col-12">
+                    <h2 class="mb-4 col-12">Nos animaux à adopter (6)</h2>
+                </div>
+                <div class="col-md-4 col-12 d-flex justify-content-md-end">
+                    <div class="form dog-filter">
+                        <select class="form-select" id="floatingSelect" aria-label="">
+                          <option selected value="1">Voir tous les chiens</option>
+                          <option value="2">Voir les mâles</option>
+                          <option value="3">Voir les femelles</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-6 col-md-4">
+                    <div class="card mt-3" style="width: 100%">
+                        <div class="info_animaux">
+                            <span class="badge rounded-pill badge-blue">Mâle</span>
+                            <span class="badge rounded-pill bg-dark">3a</span>
+                        </div>
+                        <img src="images/animaux/id2-spoutnik.jpg" class="card-img-top" alt="Agnès - Association Chiens de rue">
+                        <div class="card-body">
+                            <h3 class="card-title">Spoutnik</h3>
+                            <p class="card-text">Calme et sensible</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card  mt-3" style="width: 100%">
+                        <div class="info_animaux">
+                            <span class="badge rounded-pill badge-pink">Femelle</span>
+                            <span class="badge rounded-pill bg-dark">7a</span>
+                        </div>
+                        <img src="images/animaux/id3-biscotte.jpg" class="card-img-top" alt="Agnès - Association Chiens de rue">
+                        <div class="card-body">
+                            <h3 class="card-title">Biscotte</h3>
+                            <p class="card-text">Dynamique</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card mt-3" style="width: 100%">
+                        <div class="info_animaux">
+                            <span class="badge rounded-pill badge-blue">Mâle</span>
+                            <span class="badge rounded-pill bg-dark">1a</span>
+                        </div>
+                        <img src="images/animaux/id4-groots.jpg" class="card-img-top" alt="Agnès - Association Chiens de rue">
+                        <div class="card-body">
+                            <h3 class="card-title">Groots</h3>
+                            <p class="card-text">Peureux et discret</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card mt-3" style="width: 100%">
+                        <div class="info_animaux">
+                            <span class="badge rounded-pill badge-blue">Mâle</span>
+                            <span class="badge rounded-pill bg-dark">9a</span>
+                        </div>
+                        <img src="images/animaux/id5-aramis.jpg" class="card-img-top" alt="Agnès - Association Chiens de rue">
+                        <div class="card-body">
+                            <h3 class="card-title">Aramis</h3>
+                            <p class="card-text">Affectueux et pépère</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card mt-3" style="width: 100%">
+                        <div class="info_animaux">
+                            <span class="badge rounded-pill badge-pink">Femelle</span>
+                            <span class="badge rounded-pill bg-dark">4a</span>
+                        </div>
+                        <img src="images/animaux/id6-sandy.jpg" class="card-img-top" alt="Agnès - Association Chiens de rue">
+                        <div class="card-body">
+                            <h3 class="card-title">Sandy</h3>
+                            <p class="card-text">Joueuse</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card mt-3" style="width: 100%">
+                        <div class="info_animaux">
+                            <span class="badge rounded-pill badge-pink">Femelle</span>
+                            <span class="badge rounded-pill bg-dark">13a</span>
+                        </div>
+                        <img src="images/animaux/id1-loune.jpg" class="card-img-top" alt="Agnès - Association Chiens de rue">
+                        <div class="card-body">
+                            <h3 class="card-title">Loune</h3>
+                            <p class="card-text">Calme et affectueuse</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+      <!-- footer -->
+      <footer class="container-fluid background_primary p-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div><a href="contact.html" class="link-light">Contactez-nous</a></div>
+                      <div><a href="mentions.html" class="link-light">Mentions légales</a></div>
+                  </div>			
+                  <div class="col-12 col-sm-6 col-md-4">
+                      <hr class="text-white hr_footer">
+                      <form>
+                          <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label text-white">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <button type="submit" class="btn btn-primary">S'inscrire</button>
+                      </form>				
+                  </div>
+              </div>
+          </div>
+      </footer>
+  
+      <!-- jQuery -->
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <!-- Bootstrap JavaScript -->
+      <script src="css/bootstrap-5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Our JavaScript 
+      <script src="script.js"></script>  -->  
+  </body>
+  </html>

@@ -4,6 +4,7 @@ $primary_rollover: #00829E;
 $secondary:#EB8126;
 $secondary_rollover: #E46C04;
 $lightblue:#E9F5F8;
+$lightgray:#E9ECEF;
 
 /* Styles atomiques */
 .background_primary {
@@ -24,6 +25,13 @@ $lightblue:#E9F5F8;
     color:white;
     :hover {
         background-color: $secondary_rollover;
+    }
+}
+
+.lien-basic {
+    color:$primary;
+    :hover {
+        color:$primary_rollover;
     }
 }
 
@@ -99,10 +107,30 @@ $lightblue:#E9F5F8;
         }
 }
 
+.info_animaux {
+    position:absolute;
+    left:5px;
+    top:2px;
+}
+
+.badge-blue {
+    background-color:#045288;
+}
+.badge-pink{
+    background-color:#c83d75;
+}
+
 /* Footer */
 .hr_footer{
     margin-top:40px;
     @media screen and (min-width : 720px){
     display:none;
     }
+} 
+.dog-filter {
+    max-width: 250px;
+    @media screen and (max-width : 540px){
+        max-width: 100%;
+        width: 100%;
+        }
 }

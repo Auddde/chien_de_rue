@@ -24,6 +24,14 @@
   background-color: #E46C04;
 }
 
+.lien-basic {
+  color: #2AB3DC;
+}
+
+.lien-basic :hover {
+  color: #00829E;
+}
+
 /*Gestion des icones */
 .social_icons, .avantage_icons {
   width: 30px;
@@ -112,6 +120,20 @@
   }
 }
 
+.info_animaux {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+
+.badge-blue {
+  background-color: #045288;
+}
+
+.badge-pink {
+  background-color: #c83d75;
+}
+
 /* Footer */
 .hr_footer {
   margin-top: 40px;
@@ -120,6 +142,17 @@
 @media screen and (min-width: 720px) {
   .hr_footer {
     display: none;
+  }
+}
+
+.dog-filter {
+  max-width: 250px;
+}
+
+@media screen and (max-width: 540px) {
+  .dog-filter {
+    max-width: 100%;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
