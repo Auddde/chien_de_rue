@@ -99,8 +99,15 @@
 }
 
 @media screen and (max-width: 960px) {
-  .iframe_presentation {
+  .iframe_presentation, .iframe_association {
     height: 400px;
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .iframe_association {
+    height: 500px;
     padding: 30px 0px 0px 0px;
   }
 }
