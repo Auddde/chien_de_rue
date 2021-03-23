@@ -13,6 +13,16 @@
   max-width: 200px;
 }
 
+.lien_nu {
+  text-decoration: none;
+  color: black;
+}
+
+.boxshadow-hover :hover {
+  -webkit-box-shadow: 10px 5px 5px red;
+          box-shadow: 10px 5px 5px red;
+}
+
 /* Styles généraux */
 /** Boutons */
 .btn-1 {
@@ -154,5 +164,13 @@
     max-width: 100%;
     width: 100%;
   }
+}
+
+/*events */
+.calendar_icons {
+  width: 20px;
+  height: 20px;
+  fill: #2AB3DC;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */
