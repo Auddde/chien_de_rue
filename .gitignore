@@ -1,2 +1,12 @@
 # ignorer le dossier images_originales
-images_originales/
+images/images_originales/
+
+# ignorer les fichiers css et .map du dossier own, hormis pour style.css et style.map
+css/own/**/*.css
+css/own/**/*.map
+!css/own/style.css
+!css/own/style.css.map
+
+#ignorer le dossier bootstrap . Poussé une fois. Pas de vocation à être modifié
+css/bootstrap-5.0.0-beta2
+
