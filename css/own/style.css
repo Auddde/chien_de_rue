@@ -103,6 +103,10 @@
   max-width: 200px;
 }
 
+.brand {
+  width: 50px;
+}
+
 /* Footer */
 .hr_footer {
   margin-top: 40px;
@@ -159,13 +163,8 @@
 }
 
 /*page de recherche chiens*/
-.dog-filter {
-  max-width: 250px;
-}
-
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 575px) {
   .dog-filter {
-    max-width: 100%;
     width: 100%;
   }
 }

@@ -1,11 +1,7 @@
 
 /*page de recherche chiens*/
 .dog-filter {
-    max-width: 250px;
-    @media screen and (max-width : 540px){
-        max-width: 100%;
+    @media screen and (max-width : 575px){
         width: 100%;
         }
 }
-
-
