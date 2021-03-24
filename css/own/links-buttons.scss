@@ -1,0 +1,19 @@
+
+.lien_nu{ 
+    text-decoration: none;
+    color: black;
+}
+.lien-basic {
+    color:$primary;
+    :hover {
+        color:$primary_rollover;
+    }
+}
+.btn-1{
+    background-color: $secondary;
+    color:white;
+    :hover {
+        background-color: $secondary_rollover;
+    }
+}
+

@@ -1,47 +1,5 @@
 @charset "UTF-8";
 /* Variables */
-/* Styles atomiques */
-.background_primary {
-  background-color: #2AB3DC;
-}
-
-.background_lightblue {
-  background-color: #E9F5F8;
-}
-
-.logo {
-  max-width: 200px;
-}
-
-.lien_nu {
-  text-decoration: none;
-  color: black;
-}
-
-.boxshadow-hover :hover {
-  -webkit-box-shadow: 10px 5px 5px red;
-          box-shadow: 10px 5px 5px red;
-}
-
-/* Styles généraux */
-/** Boutons */
-.btn-1 {
-  background-color: #EB8126;
-  color: white;
-}
-
-.btn-1 :hover {
-  background-color: #E46C04;
-}
-
-.lien-basic {
-  color: #2AB3DC;
-}
-
-.lien-basic :hover {
-  color: #00829E;
-}
-
 /*Gestion des icones */
 .social_icons, .avantage_icons {
   width: 30px;
@@ -58,6 +16,43 @@
 
 .avantage_icons {
   fill: white;
+}
+
+.calendar_icons {
+  width: 20px;
+  height: 20px;
+  fill: #2AB3DC;
+  margin-right: 5px;
+}
+
+.lien_nu {
+  text-decoration: none;
+  color: black;
+}
+
+.lien-basic {
+  color: #2AB3DC;
+}
+
+.lien-basic :hover {
+  color: #00829E;
+}
+
+.btn-1 {
+  background-color: #EB8126;
+  color: white;
+}
+
+.btn-1 :hover {
+  background-color: #E46C04;
+}
+
+.background_primary {
+  background-color: #2AB3DC;
+}
+
+.background_lightblue {
+  background-color: #E9F5F8;
 }
 
 /* Carroussel */
@@ -103,19 +98,23 @@
   }
 }
 
-.bloc-avantage {
-  background-color: #2AB3DC;
-  border-radius: 20px;
-  padding: 20px;
-  width: 100%;
-  margin: 10px;
+/* TOP */
+.logo {
+  max-width: 200px;
 }
 
-.avantage_div_icon {
-  width: 100%;
-  text-align: center;
+/* Footer */
+.hr_footer {
+  margin-top: 40px;
 }
 
+@media screen and (min-width: 720px) {
+  .hr_footer {
+    display: none;
+  }
+}
+
+/* Iframe vidéos */
 @media screen and (max-width: 960px) {
   .iframe_presentation, .iframe_association {
     height: 400px;
@@ -130,6 +129,7 @@
   }
 }
 
+/*badge page listing animaux */
 .info_animaux {
   position: absolute;
   left: 5px;
@@ -144,17 +144,21 @@
   background-color: #c83d75;
 }
 
-/* Footer */
-.hr_footer {
-  margin-top: 40px;
+/*bloc avantages*/
+.bloc-avantage {
+  background-color: #2AB3DC;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  margin: 10px;
 }
 
-@media screen and (min-width: 720px) {
-  .hr_footer {
-    display: none;
-  }
+.avantage_div_icon {
+  width: 100%;
+  text-align: center;
 }
 
+/*page de recherche chiens*/
 .dog-filter {
   max-width: 250px;
 }
@@ -164,13 +168,5 @@
     max-width: 100%;
     width: 100%;
   }
-}
-
-/*events */
-.calendar_icons {
-  width: 20px;
-  height: 20px;
-  fill: #2AB3DC;
-  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+/*Gestion des icones */
+%icon_size {
+    width:30px;
+    height:30px;
+}
+
+.social_icons{
+    @extend %icon_size;
+    fill:$primary;
+    :hover {
+        fill:$primary_rollover;
+    }
+}
+.avantage_icons{
+    fill:white;
+    @extend %icon_size;
+}
+.calendar_icons{
+    width:20px;
+    height:20px;
+    fill:$primary;
+    margin-right: 5px;
+}

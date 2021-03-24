@@ -1,0 +1,27 @@
+/* Carroussel */
+.text_carrousel{
+    position:absolute;
+    z-index:999;
+    color:white;
+    bottom:100px;
+    width:100%;
+    @media screen and (max-width : 1140px){
+        bottom:30px;
+    }
+    @media screen and (max-width : 450px){
+        bottom:10px;
+    }
+}
+
+.h1-carroussel {
+    font-size:3.5rem;
+    @media screen and (max-width : 730px){
+        font-size:1.7rem;
+    }    
+    @media screen and (max-width : 560px){
+        font-size:1.5rem;
+    }   
+    @media screen and (max-width : 450px){
+        font-size:1.3rem;
+    }  
+}

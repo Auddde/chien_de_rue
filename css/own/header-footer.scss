@@ -1,0 +1,11 @@
+/* TOP */
+.logo{
+    max-width: 200px;
+}
+/* Footer */
+.hr_footer{
+    margin-top:40px;
+    @media screen and (min-width : 720px){
+    display:none;
+    }
+} 
