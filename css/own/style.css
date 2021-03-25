@@ -34,7 +34,7 @@
   color: #2AB3DC;
 }
 
-.lien-basic :hover {
+.lien-basic:hover {
   color: #00829E;
 }
 
@@ -43,8 +43,9 @@
   color: white;
 }
 
-.btn-1 :hover {
+.btn-1:hover {
   background-color: #E46C04;
+  color: white;
 }
 
 .background_primary {

@@ -4,16 +4,16 @@
     color: black;
 }
 .lien-basic {
-    color:$primary;
-    :hover {
-        color:$primary_rollover;
-    }
+    color: $primary;
+}
+.lien-basic:hover {
+    color:$primary_rollover;
 }
 .btn-1{
     background-color: $secondary;
     color:white;
-    :hover {
-        background-color: $secondary_rollover;
-    }
 }
-
+.btn-1:hover{
+    background-color: $secondary_rollover;
+    color: white;
+}
