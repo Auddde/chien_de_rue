@@ -11,7 +11,7 @@
 }
 
 .social_icons :hover {
-  fill: #00829E;
+  fill: #0e5f8e;
 }
 
 .avantage_icons {
@@ -35,7 +35,7 @@
 }
 
 .lien-basic:hover {
-  color: #00829E;
+  color: #0e5f8e;
 }
 
 .btn-1 {
@@ -44,7 +44,15 @@
 }
 
 .btn-1:hover {
-  background-color: #E46C04;
+  background-color: #eb5e26;
+  color: white;
+}
+
+.link-white {
+  color: #e5e5e5;
+}
+
+.link-white:hover {
   color: white;
 }
 
@@ -113,7 +121,7 @@
   margin-top: 40px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 575px) {
   .hr_footer {
     display: none;
   }
